@@ -62,3 +62,4 @@ var grades = {
 };
 grades.show();
 ```
+위의 this는 this가 사용된 함수를 포함하는 객체를 의미한다
