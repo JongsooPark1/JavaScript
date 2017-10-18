@@ -9,6 +9,8 @@ var grades = {"Will": 10, "Honux": 6, "Jack": 80};
 ```
 
 
+
+
 2.
 ```
 var grades = {};
@@ -16,6 +18,8 @@ grades["Will"] = 10;
 grades["Honux"] = 6;
 grades["Jack"] = 80;
 ```
+
+
 
 
 3.
@@ -30,6 +34,8 @@ grades["Jack"] = 80;
 
 
 
+
+
 > for in loop
 
 ```
@@ -39,6 +45,8 @@ for(key in grades) {
 }
 ```
 * 객체뿐만 아니라 배열에서도 사용 가능
+
+
 
 
 > 객체 지향 프로그래밍
