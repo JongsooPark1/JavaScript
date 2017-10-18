@@ -51,3 +51,14 @@ for(key in grades) {
 
 > 객체 지향 프로그래밍
 * 서로 연관되어 있는 값과 기능을 하나의 그룹안에 넣어 사용하는 것
+```
+var grades = {
+    'list': {"Will": 10, "Honux": 6, "Jack": 80},
+    'show' : function(){
+        for(var name in this.list){
+            console.log(name, this.list[name]);
+        }
+    }
+};
+grades.show();
+```
