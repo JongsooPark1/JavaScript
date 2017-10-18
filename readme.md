@@ -1,5 +1,5 @@
 ## JavaScript
 ---
-* [Study](https://github.com/JongsooPark1/JavaScript/tree/master/Function)
+* [Study]()
 
-* [Project](https://github.com/JongsooPark1/JavaScript/tree/master/Object)
+* [Project]()
