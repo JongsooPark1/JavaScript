@@ -30,12 +30,8 @@ var a = "Honux";
 
 
 > XOR, XNOR 진리표
-* XOR
+
 ![XOR](https://homepages.inf.ed.ac.uk/rbf/HIPR2/figs/ttabxor.gif)
-
-
-* XNOR
-![XNOR] (https://homepages.inf.ed.ac.uk/rbf/HIPR2/figs/ttabxor.gif)
 
 
 
@@ -49,6 +45,8 @@ var a = "Honux";
 
 
 
-> 4.2f의 의미
-* format
-![Alt text](/Users/PJS/Desktop/to/aa.png)
+> %8.1f의 의미
+* 소수점이상 최소 6자리, 소수점 이하 1자리. 출력될 자리수를 최소 8자리(소수점포함)를 확보. 빈자리는 공백으로 채움(오른쪽 정렬)
+
+ex) var f = 1234.56789;
+1234.6 출력
