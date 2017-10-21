@@ -61,14 +61,20 @@ ex) var f = 1234.56789;
 
 > GIT
 
-* git ls -al
+git ls -al
+
 Read : 4
+
 Write : 2
+
 Execute : 1
 
 * commit
+
 일종의 객체다. 나머진 전부 참조
+
 로컬 저장소에 저장. 폴더 내부에 (.git) 생성
+
 save. 따라서 commit한 시점의 작업 내용으로 돌아갈 수 있다
 
 
