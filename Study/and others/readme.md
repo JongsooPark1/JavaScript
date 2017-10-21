@@ -1,7 +1,7 @@
 ## and others
 ---
 
-> #interpreter vs compiler#
+> interpreter and compiler
 
 * interpreter
 
