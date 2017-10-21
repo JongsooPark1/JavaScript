@@ -8,7 +8,7 @@ var input = parseInt(prompt('숫자를 입력하세요'));
 //     console.log(str);
 //   }
 // }
-// printStar2(input);
+// printStar1(input);
 // function printStar2(arg) {
 //   var str2 = "";
 //   for (var i = 0; i < arg; i++) {
@@ -20,6 +20,7 @@ var input = parseInt(prompt('숫자를 입력하세요'));
 //     console.log(str1 + str2);
 //   }
 // }
+// printStar2(input);
 // function printStar3(arg) {
 //   for (var i = 0; i < arg; i++) {
 //     var str1 = "";
@@ -56,7 +57,7 @@ var input = parseInt(prompt('숫자를 입력하세요'));
 //       str2 += "*";
 //     }
 //     console.log(str1 + str2);
-//   } 
+//   }
 // }
 // printStar4(input);
 // function printStar5(arg) {
