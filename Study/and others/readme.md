@@ -101,6 +101,8 @@ foo2(a);
 
 > GIT
 
+![git](http://public.codesquad.kr/images/work6.png)
+
 * ls -al
 
   Read : 4
