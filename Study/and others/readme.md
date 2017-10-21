@@ -66,7 +66,7 @@ var a = "Honux";
 
 > GIT
 
-* git ls -al
+* ls -al
 
   Read : 4
 
