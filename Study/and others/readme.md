@@ -1,7 +1,7 @@
 ## and others
 ---
 
-> interpreter vs compiler
+> #interpreter vs compiler#
 * interpreter
   code 한 줄 한 줄마다 바로 실행. 따라서 에러 나기 직전까지 실행한다
 
@@ -51,3 +51,21 @@ var a = "Honux";
 ex) var f = 1234.56789;
 
 1234.6 출력
+
+
+
+> GIT
+* git ls -al
+>Read : 4
+>Write : 2
+>Execute : 1
+
+* commit
+> 일종의 객체다. 나머진 전부 참조
+>로컬 저장소에 저장. 폴더 내부에 (.git) 생성
+>save. 따라서 commit한 시점의 작업 내용으로 돌아갈 수 있다
+
+
+* master에서 작어밯지 말기. 완전히 테스트까지 끝낸 것만 master에서 merge
+
+* rebase는 로컬에서만 한다
