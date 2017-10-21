@@ -101,7 +101,7 @@ foo2(a);
 
 > GIT
 
-![git](http://public.codesquad.kr/images/work6.png)
+![git](https://github.com/JongsooPark1/JavaScript/blob/master/Study/and%20others/work6.png?raw=true)
 
 * ls -al
 
