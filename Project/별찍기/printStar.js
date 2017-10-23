@@ -9,6 +9,8 @@ function printStar1(arg) {
   }
 }
 printStar1(input);
+
+
 function printStar2(arg) {
   var str2 = "";
   for (var i = 0; i < arg; i++) {
@@ -21,6 +23,8 @@ function printStar2(arg) {
   }
 }
 printStar2(input);
+
+
 function printStar3(arg) {
   for (var i = 0; i < arg; i++) {
     var str1 = "";
@@ -35,6 +39,8 @@ function printStar3(arg) {
   }
 }
 printStar3(input);
+
+
 function printStar4(arg) {
   for (var i = 0; i < arg; i++) {
     var str1 = "";
@@ -60,6 +66,8 @@ function printStar4(arg) {
   }
 }
 printStar4(input);
+
+
 function printStar5(arg) {
   var str1 = "";
   var str2 = "";
@@ -80,6 +88,8 @@ function printStar5(arg) {
   console.log(str1);
 }
 printStar5(input);
+
+
 function printStar6(arg) {
   if (arg === 1) {
     console.log("*");
@@ -120,6 +130,8 @@ function printStar6(arg) {
   }
 }
 printStar6(input);
+
+
 function printStar7(arg) {
   var str1 = "";
   for (var i = 0; i < 2 * arg + 1; i++) {
