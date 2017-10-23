@@ -2,7 +2,7 @@
 ---
 > code
 
-```
+```JavaScript
 alert("지금부터 러시안룰렛 게임을 시작하겠습니다");
 var bulletNum = Math.ceil(Math.random() * 6);
 console.log(bulletNum);

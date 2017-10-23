@@ -4,7 +4,7 @@
 
 
 1. 선언적 함수
-```
+```JavaScript
 function functionName1(agr) {
   console.log(agr);
 }
@@ -15,7 +15,7 @@ functionName1(1);
 
 
 2. 익명 함수 - 1
-```
+```JavaScript
 var functionName2 = function(agr) {
   console.log(agr);
 }
@@ -25,7 +25,7 @@ functionName2(2);
 
 
 3. 익명 함수 - 2 (선언과 동시에 호출)
-```
+```JavaScript
 (function(agr) {
   console.log(agr);
 })(3);
