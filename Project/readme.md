@@ -9,3 +9,5 @@
 * [함수 구현](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%ED%95%A8%EC%88%98%20%EA%B5%AC%ED%98%84)
 
 * [짝꿍만들기](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%EC%A7%9D%EA%BF%8D%EB%A7%8C%EB%93%A4%EA%B8%B0)
+
+* [오름차순, 내림차순](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%EC%98%A4%EB%A6%84%EC%B0%A8%EC%88%9C%2C%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C)
