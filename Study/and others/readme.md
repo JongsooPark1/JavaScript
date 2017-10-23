@@ -21,7 +21,7 @@
 
 b의 값이 3에서 5로 변경된다
 
-```
+```JavaScript
 var b = 3;
 var b = 5;
 ```
@@ -30,14 +30,14 @@ var b = 5;
 
 값이 바뀌지 않는다. 첫 번째와 두 번째 값을 저장할 때마다 메모리의 일정 영역을 따로 차지하며, 이후에 garbage collector에 의해 쓰지 않는 data를 정리한다
 
-```
+```JavaScript
 var a = "Will";
 var a = "Honux";
 ```
 
 + 보충
 
-```
+```JavaScript
 a = 5;
 c= a;
 // a의 값 : 5
@@ -126,7 +126,7 @@ foo2(a);
 > prototype
 
 배열의 객체, 즉 모든 배열에 아래와 같은 method를 만들 수 있게 된다. 이는 함수와는 조금 다르다
-```
+```JavaScript
 var a = [1, 2, 3];
 
 Array.prototype.append = function(data) {

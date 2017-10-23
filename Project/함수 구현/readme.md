@@ -4,7 +4,8 @@
 
 > shift()
 
-```
+
+```JavaScript
 var a = [6, 2, 3, 4, 3];
 
 function myShift(arr) {
@@ -20,7 +21,7 @@ console.log(myShift(a));
 
 > unshift()
 
-```
+```JavaScript
 var a = [6, 2, 3, 4, 3];
 
 function myUnshift(arr, input) {
@@ -34,7 +35,7 @@ console.log(myUnshift(a, 5));
 ```
 
 > pop()
-```
+```JavaScript
 function myPop(arr) {
   var b = arr[arr.length - 1];
   arr.length--;
