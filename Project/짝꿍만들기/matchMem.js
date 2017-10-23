@@ -8,7 +8,7 @@ function makeArray(numMem) {
 
 function shuffle(arr, numMem) {
   var n = 0;
-  var randomName = 0;
+  var randomName = [];
   var element = ""
   var nameArr = new Array(numMem);
   for (var i = 0; i < numMem; i++) {
