@@ -33,4 +33,11 @@ function myUnshift(arr, input) {
 console.log(myUnshift(a, 5));
 ```
 
->
+> pop()
+```
+function myPop(arr) {
+  var b = arr[arr.length - 1];
+  arr.length--;
+  return b;
+}
+```

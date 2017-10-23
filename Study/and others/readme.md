@@ -121,3 +121,18 @@ foo2(a);
 * master에서 작업하지 말기. 완전히 테스트까지 끝낸 것만 master에서 merge
 
 * rebase는 로컬에서만 한다
+
+
+> prototype
+
+배열의 객체, 즉 모든 배열에 아래와 같은 method를 만들 수 있게 된다. 이는 함수와는 조금 다르다
+```
+var a = [1, 2, 3];
+
+Array.prototype.append = function(data) {
+  this[this.length] = data;
+}
+
+a.append(4);
+console.log(a);
+```
