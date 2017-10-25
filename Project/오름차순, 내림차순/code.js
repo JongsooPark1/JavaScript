@@ -17,7 +17,7 @@ function myMin(arr) {
       arr[i + 1] = arr[i];
     }
   }
-  var element = arr.pop();
+  var element = arr.pop(); 
   console.log(element);
 }
 
