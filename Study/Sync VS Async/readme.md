@@ -1,12 +1,12 @@
 ## Sync(동기) VS ASync(비동기)
 ---
-#### JS 파일 만들고 터미널로 실행
+### JS 파일 만들고 터미널로 실행
 
 입력 데이터가 담긴 파일(.txt)을 만들고, code가 담겨 있는 파일(.js)을 만들고 하나의 폴더에 둔다. 그리고 터미널을 이용해 파일(.js)을 실행한다
 
 터미널 명령어 : node 파일이름.js
 
-#### Sync
+### Sync
 
 하나의 작업이 완료될 때까지, 다른 일을 하지 못한다
 
@@ -30,7 +30,7 @@ for (var i = 0; i < a.length; i++) {
 console.log(sum);
 ```
 
-**test.txt 파일**
+> test.txt 파일
 
 1
 
@@ -71,7 +71,7 @@ console.log("jajaja");                    // 1번
 
 ```
 
-> test.txt 파일
+* test.txt 파일
 
 Hello
 
@@ -83,7 +83,7 @@ Hello
 
 후후후후
 
-> output
+* output
 
 jajaja
 
@@ -101,22 +101,24 @@ Hello
  callback에 의해 작업이 지연되어 가장 마지막 작업인 jajaja출력이 가장 먼저 진행되고, 이후 txt파일을 읽고, 마지막으로 foo 함수를 실행하였다
 
 
-#### callback
+### callback
 
 JavaScript에서는 함수도 객체이기 때문에 파라미터로 넘길 수 있고, 넘겨받은 함수를 언제 실행할지 결정할 수도 있다
 
 따라서, 모든 명령의 실행을 마친 후에 넘겨받은 함수객체를 실행시킬 수도 있는데 이것을 바로 Callback이라고 한다
 
 
-#### block
+### Block VS Non-Block
+
+* Bolck
 
 오래 걸려도 무조건 작업 실행한다
 
-#### non-block
+* Non-Block
 
 작업 시간이 오래 걸리면 진행할지 하지말지 결정할 수 있다
 
-> Sync, ASync, Block, Non-Block 차이 (보충 자료, 나중에 읽어보기)
+### Sync, ASync, Block, Non-Block 차이 (보충 자료, 나중에 읽어보기)
 
 https://slipp.net/questions/367
 
