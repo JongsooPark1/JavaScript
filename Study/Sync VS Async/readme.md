@@ -30,7 +30,7 @@ for (var i = 0; i < a.length; i++) {
 console.log(sum);
 ```
 
-> test.txt 파일
+* test.txt 파일
 
 1
 
