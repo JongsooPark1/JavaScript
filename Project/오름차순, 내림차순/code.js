@@ -17,7 +17,7 @@ function myMin(arr) {
       arr[i + 1] = arr[i];
     }
   }
-  var element = arr.pop(); 
+  var element = arr.pop();
   console.log(element);
 }
 
@@ -46,10 +46,10 @@ function ascenArr(arr) {
   var temp = 0;
   for (var i = 0; i < arr.length; i++) {
     for (var j = 0; j < arr.length - i; j++) {
-      if(arr[arr.length - 2 - j] > arr[arr.length - 1 - j]) {
-        temp = arr[arr.length - 1 - j]
-        arr[arr.length - 1 - j] = arr[arr.length - 2 - j];
-        arr[arr.length - 2 - j] = temp;
+      if(arr[j] > arr[j + 1]) {
+        temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
       }
     }
   }
