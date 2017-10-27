@@ -14,4 +14,6 @@
 
 * [HTML 학습하기](https://github.com/JongsooPark1/JavaScript/tree/master/Study/HTML)
 
+* [closure]()
+
 * [and others](https://github.com/JongsooPark1/JavaScript/tree/master/Study/and%20others)
