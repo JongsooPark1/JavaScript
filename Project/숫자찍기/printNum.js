@@ -93,7 +93,7 @@ function printNum6(input) {
     arr1[i] = input - i;
     arr2[i] = i;
     str = arr1[i] + " " + arr2[i];
-    console.log(str);
+    console.log(str); 
   }
 }
 printNum6(5);
