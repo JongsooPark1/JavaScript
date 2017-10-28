@@ -85,7 +85,7 @@ output
 7. 현재 코드는 너무 복잡하다...간단하게 다시 도전
 
 
-input : 4
+input : 4 
 
 output
 

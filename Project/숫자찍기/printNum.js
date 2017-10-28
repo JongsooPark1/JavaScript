@@ -93,7 +93,7 @@ function printNum6(input) {
     arr1[i] = input - i;
     arr2[i] = i;
     str = arr1[i] + " " + arr2[i];
-    console.log(str); 
+    console.log(str);
   }
 }
 printNum6(5);
@@ -145,11 +145,12 @@ function storeNum(arr, inputNum) {
 }
 
 function printNum(arr, inputNum) {
-  var str = '';
-  for (var i = 0; i < inputNum; i++) {
-    str += arr[i] + '';
+  for(var i = 0; i < inputNum; i++) {
+    var str = "";
+    for(var j = 0; j < inputNum; j++) {
+      str += arr[i][j] + " ";
+    }
     console.log(str);
-    str = '';
   }
 }
 
