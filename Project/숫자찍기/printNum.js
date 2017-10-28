@@ -98,13 +98,62 @@ function printNum6(input) {
 }
 printNum6(5);
 
-
-function printNum7(input) {
-  var i, j;
-  for (var num = 1; num <= input * input; num++) {
-    if(i === input - 1) {
-      j++;
+///////////////////////////////////////////////////////////////////////////
+function makeArr(inputNum) {
+  var arr = [];
+  for (var i = 0; i < inputNum; i++) {
+    arr[i] = [];
+    for (var j = 0; j < inputNum; j++) {
+      arr[i][j] = 0;
     }
   }
+  return arr;
 }
-printNum7(4);
+
+function storeNum(arr, inputNum) {
+  var n = 1;
+  for (var k = 0; k < inputNum / 2; k++) {
+    var i = k;
+    var j = k;
+    for (j; j < inputNum - k; j++) {
+      arr[i][j] = n;
+      n++;
+    }
+    j--;
+    i++;
+    for (i; i < inputNum - k; i++) {
+      arr[i][j] = n;
+      n++;
+    }
+    i--;
+    j--;
+    for (j; j >= 0 + k; j--) {
+      arr[i][j] = n;
+      n++;
+    }
+    j++;
+    i--;
+    for (i; i > 0 + k; i--) {
+      arr[i][j] = n;
+      n++;
+    }
+  }
+  if(inputNum % 2 === 1) {
+    arr[inputNum * inputNum - 1] = inputNum * inputNum;
+  }
+  return arr;
+}
+
+function printNum(arr, inputNum) {
+  var str = '';
+  for (var i = 0; i < inputNum; i++) {
+    str += arr[i] + '';
+    console.log(str);
+    str = '';
+  }
+}
+
+var inputNum = prompt("숫자 입력");
+var arr = makeArr(inputNum);
+var arr2 = storeNum(arr, inputNum);
+printNum(arr2, inputNum);
