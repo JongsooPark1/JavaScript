@@ -1,19 +1,19 @@
 ## Canvas를 사용해 그림 그리기
 ---
-1. Chess board
+### Chess board
 
 output
 
 ![chess](./chessBoard.png)
 
-2. Human
+### Human
 
 output
 
 ![human](./human.png)
 
-3. Brown
+### Brown
 
 output
 
-![output](./output.png)
+![output](./brown.png)
