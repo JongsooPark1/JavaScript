@@ -4,7 +4,7 @@
 
 * [별찍기](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%EB%B3%84%EC%B0%8D%EA%B8%B0)
 
-* [숫자찍기](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%EC%88%AB%EC%9E%90%EC%B0%8D%EA%B8%B0)
+* [숫자찍기](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%E1%84%89%E1%85%AE%E1%86%BA%E1%84%8C%E1%85%A1%E1%84%8D%E1%85%B5%E1%86%A8%E1%84%80%E1%85%B5)
 
 * [함수 구현](https://github.com/JongsooPark1/JavaScript/tree/master/Project/%ED%95%A8%EC%88%98%20%EA%B5%AC%ED%98%84)
 
