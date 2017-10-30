@@ -9,7 +9,7 @@ function printNum1(startNum, endNum) {
   }
   console.log(str);
 }
-printNum1(3, 8);
+// printNum1(3, 8);
 
 
 function printNum2(input) {
@@ -24,7 +24,7 @@ function printNum2(input) {
     }
   }
 }
-printNum2(4);
+// printNum2(4);
 
 
 function printNum3(input1, input2) {
@@ -40,7 +40,7 @@ function printNum3(input1, input2) {
     str = "";
   }
 }
-printNum3(4, 3);
+// printNum3(4, 3);
 
 
 function printNum4(input) {
@@ -68,7 +68,7 @@ function printNum4(input) {
     }
   }
 }
-printNum4(5);
+// printNum4(5);
 
 
 function printNum5(input) {
@@ -82,7 +82,7 @@ function printNum5(input) {
     console.log(str);
   }
 }
-printNum5(5);
+// printNum5(5);
 
 
 function printNum6(input) {
@@ -96,7 +96,7 @@ function printNum6(input) {
     console.log(str);
   }
 }
-printNum6(5);
+// printNum6(5);
 
 ///////////////////////////////////////////////////////////////////////////
 function makeArr(inputNum) {
@@ -137,9 +137,6 @@ function storeNum(arr, inputNum) {
       arr[i][j] = n;
       n++;
     }
-  }
-  if(inputNum % 2 === 1) {
-    arr[inputNum * inputNum - 1] = inputNum * inputNum;
   }
   return arr;
 }
