@@ -1,24 +1,15 @@
 ## 짝궁 만들기
 ---
-> input
+### output
 
-7명
+![ouput](./output.png)
 
-Will, Honux, Jack, Koo, JL, JINA, Haena
+### 예외처리
 
-> output
+1. 처음 "."이 입력될 때 -> 0.으로 자동 변환
 
-```
-JL, Will 둘이 짝꿍  
-Jack, Koo 둘이 짝꿍  
-JINA, Honux 둘이 짝꿍  
-Haena 님은 왕따 ~~  
-```
+2. ".", "+", "-", "x", "/" 가 이중으로 입력될 때, 첫번째 값으로 변환
 
-> function
+3. 입력 수 제한(23자)
 
-1. 입력 받은 이름으로 배열 만들기
-
-2. 배열 섞기
-
-3. 섞인 배열에서 짝꿍 만들기
+4. 불가능한 계산일 경우 alert 창 나타남
