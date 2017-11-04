@@ -1,13 +1,10 @@
-a = [7, 10, 1, -2, 30, 0, 0];
-
+arr = [7, 10, 1, -2, 30, 0, 0];
 
 function myMax(arr) {
+  var max = arr[0];
   for (var i = 0; i < arr.length; i++) {
-    if(arr[i] > arr[i + 1]) {
-      arr[i + 1] =arr[i];
-    }
+    max = Math.max(max, arr[i]);
   }
-  var element = arr.pop();
   console.log(element);
 }
 
