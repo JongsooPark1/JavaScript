@@ -2,7 +2,7 @@
 ---
 ### output
 
-![ouput](./calculator.png)
+![output](./calculator.png)
 
 ### 예외처리
 
