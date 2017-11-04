@@ -1,5 +1,5 @@
 ## JavaScript
 ---
-* [Study](https://github.com/JongsooPark1/JavaScript/tree/master/Study)
+* [Study](./stu)
 
 * [Project](https://github.com/JongsooPark1/JavaScript/tree/master/proj)
