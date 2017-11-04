@@ -1,5 +1,9 @@
 ## makeLunchGroup
 ---
+### output
+
+![image](./lunchMem0.png)
+
 ### analysis
 
 처음 구현하고자 했던 방식은 멤버 이름이 들어가 있는 배열과 한 그룹의 인원수를 인풋으로 주면,
