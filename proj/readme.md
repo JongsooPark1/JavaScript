@@ -10,7 +10,7 @@
 
 * [짝꿍만들기](./%EC%A7%9D%EA%BF%8D%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
-* [오름차순, 내림차순](./%EC%98%A4%EB%A6%84%EC%B0%A8%EC%88%9C%2C%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C)
+* [오름차순, 내림차순](./sort(ascending,descending))
 
 * [이진수 더하기](./plusBinayNum)
 
