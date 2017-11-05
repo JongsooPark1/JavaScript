@@ -20,6 +20,8 @@
 
 * [점심멤버](./makeLunchGroup)
 
+* [HTML을 활용해 숫자 게임 만들기](./HTML을%20이용해%20숫자게임%20만들기)
+
 * [animation](./animation)
 
-* [HTML을 활용해 숫자 게임 만들기](./HTML을%20이용해%20숫자게임%20만들기)
+* [블랙잭](./blackjack)
