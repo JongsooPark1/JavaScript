@@ -19,11 +19,17 @@ function shuffle(arr, memNum) {
 }
 
 function makeGroup(arr, memNum, groupMemNum) {
+  if(document.getElementById("bar2")) {
+    document.body.removeChild(document.getElementById('bar2'));
+  }
+  var newDiv = document.createElement("div");
+  newDiv.id = "bar2";
+  document.body.appendChild(newDiv);
   var separatingNum = Math.floor(memNum / groupMemNum);
   for(var i = 0; i < memNum; i = i + groupMemNum) {
     var str = "";
     var newP = document.createElement("p");
-    bar1.appendChild(newP);
+    bar2.appendChild(newP);
     if(i === separatingNum * groupMemNum) {
       for( var j = 0; j < memNum - separatingNum * groupMemNum; j++) {
         str += arr[i + j] + "　　";

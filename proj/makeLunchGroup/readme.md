@@ -20,3 +20,14 @@ html에서 짜여진 알고리즘에 맞게 input객체를 설정하고 각각�
 2. lunchMem0.js
 
 output은 원했던 방식이지만, 하드코딩인 상태라 멤버 인원이 변경되거나 그룹 인원이 변경 되는 것을 반영하지 못한다
+
+### solution
+
+```javascript
+if(document.getElementById("bar2")) {
+  document.body.removeChild(document.getElementById('bar2'));
+}
+```
+위의 코드를 추가하여 문제 해결하였다
+
+기존의 id 중 bar2가 있다면(만들 때, bar2라는 id로 생성) 그것을 삭제하고 새롭게 생성한다
