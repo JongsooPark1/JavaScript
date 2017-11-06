@@ -1,9 +1,3 @@
-// for(var i = 0; i < 7; i++){
-//     var newP = document.createElement("p");
-//     bar1.appendChild(newP);
-//     newP.innerHTML = "";
-// }
-
 function shuffle(arr, memNum) {
   var n = 0;
   var randomName = [];
