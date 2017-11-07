@@ -6,10 +6,9 @@ var ctx = canvas.getContext("2d");
 var bgImage = new Image();
 var bgload = false;
 bgImage.onload = function() {
-  alert("onload");
   bgload = true;
 };
-bgImage.src = "supermario.jpg";
+bgImage.src = "./animation.jpg";
 
 //ball 객체 만들기
 var ball = {
@@ -40,7 +39,6 @@ var ball = {
 
 //공 그리기
 ctx.drawBall = function() {
-  alert("drawBall");
   this.beginPath();
   this.fillStyle = ball.color;
   this.ellipse(ball.x, ball.y, ball.radius, ball.radius,
@@ -53,7 +51,6 @@ ball.setSpeed(5, -1);
 
 var drawAll = function() {
   if (bgload) {
-    alert("drawBackground");
      ctx.drawImage(bgImage, 0, 0);
   }
   ball.check();
@@ -62,5 +59,3 @@ var drawAll = function() {
 };
 
 setInterval(drawAll, 300);
-// drawAll();
-// ctx.drawBall();
