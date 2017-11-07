@@ -12,6 +12,8 @@
 
 * [오름차순, 내림차순](./sort(ascending,descending))
 
+* [정렬2](./sort2)
+
 * [이진수 더하기](./plusBinayNum)
 
 * [canvas 사용하기](./canvas)
