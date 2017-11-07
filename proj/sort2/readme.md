@@ -14,6 +14,8 @@
 
 ### 셔플하기
 
+> honux shuffle
+>
 > will shuffle(splice는 오버 헤드 발생시킬 위험 있으니 최대한 자제)
 >
 > knuth shuffle(외우기. 더 효율적)

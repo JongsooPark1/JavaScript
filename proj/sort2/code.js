@@ -63,7 +63,18 @@ function selectionSort(arr) {
 }
 
 // 셔플
-// 셔플1...오버헤드 일어난다
+// honux shuffle
+function shuffle(arr) {
+	for(var i = 0; i < this.length * 5; i++) {
+		var idx1 = Math.floor(Math.random() * this.length);
+		var idx2 = Math.floor(Math.random() * this.length);
+		var temp = this[idx1];
+		this[idx1] = this[idx2];
+		this[idx2] = temp;
+	}
+};
+
+// will shuffle...overhead 발생
 function shuffle(arr) {
   for (var i = 0; i < arr.length; i++) {
     var a = Math.floor((Math.random() * arr.length));
@@ -72,7 +83,7 @@ function shuffle(arr) {
   }
   return arr;
 }
-// 셔플2...더 효율적...외워라
+// knuth shuffle...가장 효율적
 function shuffle2(arr) {
   for (var i = arr.length - 1; i >= 0; i--) {
     var idx1 = Math.floor(Math.random() * i);
