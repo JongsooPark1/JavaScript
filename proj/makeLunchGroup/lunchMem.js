@@ -1,3 +1,9 @@
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var bgImage = new Image();
+bgImage.src = "./image1.jpeg";
+ctx.drawImage(bgImage, 0, 0);
+
 function shuffle(arr, memNum) {
   var n = 0;
   var randomName = [];
