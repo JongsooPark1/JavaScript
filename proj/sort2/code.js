@@ -91,4 +91,5 @@ function shuffle2(arr) {
     arr[idx1] = arr[i];
     arr[i] = temp;
   }
+  return arr;
 }
