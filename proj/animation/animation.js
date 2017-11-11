@@ -46,6 +46,9 @@ ctx.drawBall = function() {
   this.fill();
 };
 
+while(!allImageLoad) {
+  //draw "준비중입니다."
+}
 // 볼 초기 속도 정하기
 ball.setSpeed(5, -1);
 
