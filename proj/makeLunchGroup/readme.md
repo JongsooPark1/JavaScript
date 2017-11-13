@@ -24,8 +24,8 @@ output은 원했던 방식이지만, 하드코딩인 상태라 멤버 인원이 
 ### solution
 
 ```javascript
-if(document.getElementById("bar2")) {
-  document.body.removeChild(document.getElementById('bar2'));
+if(document.getElementById("temp2")) {
+  document.getElementById("temp2").remove();
 }
 ```
 위의 코드를 추가하여 문제 해결하였다
