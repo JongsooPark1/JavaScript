@@ -1,9 +1,3 @@
-var canvas = document.getElementById("canvas");
-var ctx = canvas.getContext("2d");
-var bgImage = new Image();
-bgImage.src = "./image1.jpeg";
-ctx.drawImage(bgImage, 0, 0);
-
 function shuffle(arr, memNum) {
   var n = 0;
   var randomName = [];
@@ -15,22 +9,22 @@ function shuffle(arr, memNum) {
     element = randomName.join();
     nameArr[i] = element;
   }
-  
   return nameArr;
 }
 
 function makeGroup(arr, memNum, groupMemNum) {
-  if(document.getElementById("bar2")) {
-    document.body.removeChild(document.getElementById('bar2'));
+  if(document.getElementById("temp2")) {
+    document.getElementById("temp2").remove();
   }
+  var temp = document.getElementById('temp');
   var newDiv = document.createElement("div");
-  newDiv.id = "bar2";
-  document.body.appendChild(newDiv);
+  newDiv.id = "temp2";
+  temp.appendChild(newDiv);
   var separatingNum = Math.floor(memNum / groupMemNum);
   for(var i = 0; i < memNum; i = i + groupMemNum) {
     var str = "";
     var newP = document.createElement("p");
-    bar2.appendChild(newP);
+    newDiv.appendChild(newP);
     if(i === separatingNum * groupMemNum) {
       for( var j = 0; j < memNum - separatingNum * groupMemNum; j++) {
         str += arr[i + j] + "　　";
