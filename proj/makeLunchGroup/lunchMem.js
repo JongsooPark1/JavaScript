@@ -15,6 +15,7 @@ function shuffle(arr, memNum) {
     element = randomName.join();
     nameArr[i] = element;
   }
+  
   return nameArr;
 }
 
