@@ -10,6 +10,7 @@ var ctx = canvas.getContext("2d");
 ctx.strokeStyle = "#0da2d8";
 ctx.lineWidth = 7;
 ctx.strokeRect(0, 0, 550, 350);
+var temp;
 
 var dealer = {
   name : "dealer",
@@ -73,6 +74,9 @@ player.stand = function(shuffledCards) {
       message.innerHTML = "player lose";
       this.money -= 100;
       totalMoney.innerHTML = this.money;
+    } else if (this.scoreSum === 21 && dealer.scoreSum === 21){
+      dealerScore.innerHTML = dealer.scoreSum;
+      message.innerHTML = "dealer blackjack, player lose";
     } else {
       dealerScore.innerHTML = dealer.scoreSum;
       message.innerHTML = "draw";
@@ -131,9 +135,15 @@ function shuffleCards(cardsArr) {
 
 function giveCard(cardsArr, target) {
   target.cards.push(cardsArr.pop());
-
-  for (i = 0; i < target.cards.length; i++ ){
-       renderCard(target, i);
+  if (temp <= 0) {
+    temp++;
+  } else if(temp <= 1) {
+    renderCard(target, 1);
+    temp++;
+  } else {
+    for (i = 0; i < target.cards.length; i++){
+         renderCard(target, i);
+    }
   }
 }
 
@@ -198,6 +208,7 @@ var cards = makeCards();
 var shuffledCards = shuffleCards(cards);
 
 function start() {
+  temp = 0;
   btnHit.disabled = false;
   btnStand.disabled = false;
   giveCard(shuffledCards, dealer);
@@ -218,7 +229,7 @@ function start() {
   playerScore.innerHTML = player.scoreSum;
   message.innerHTML = "hit or stand?";
   totalMoney.innerHTML = player.money;
-  setTimeout(function() { drawBack();}, 30);
+  drawBack();
 }
 
 function newGame() {
