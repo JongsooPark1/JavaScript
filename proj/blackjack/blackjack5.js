@@ -10,7 +10,7 @@ var ctx = canvas.getContext("2d");
 ctx.strokeStyle = "#0da2d8";
 ctx.lineWidth = 7;
 ctx.strokeRect(0, 0, 550, 350);
-var temp;
+var temp2;
 
 var dealer = {
   name : "dealer",
@@ -135,11 +135,11 @@ function shuffleCards(cardsArr) {
 
 function giveCard(cardsArr, target) {
   target.cards.push(cardsArr.pop());
-  if (temp <= 0) {
-    temp++;
-  } else if(temp <= 1) {
+  if (temp2 <= 0) {
+    temp2++;
+  } else if(temp2 <= 1) {
     renderCard(target, 1);
-    temp++;
+    temp2++;
   } else {
     for (i = 0; i < target.cards.length; i++){
          renderCard(target, i);
@@ -208,7 +208,7 @@ var cards = makeCards();
 var shuffledCards = shuffleCards(cards);
 
 function start() {
-  temp = 0;
+  temp2 = 0;
   btnHit.disabled = false;
   btnStand.disabled = false;
   giveCard(shuffledCards, dealer);
